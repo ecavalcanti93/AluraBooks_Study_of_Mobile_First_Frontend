@@ -27,7 +27,7 @@
                 <li class="lista-menu__item lista-menu__link"><a href="#"></a>Design & UX</li>
             </ul>
             <img src="/images/Logo.svg" alt="Logo Alurabooks" class="container__image">
-             <img src="/images/AluraBooks.png" alt="Logo AluraBooks" class="container__logo-tablet">
+            <img  src="/images/AluraBooks.png" alt="Logo AluraBooks" class="container__logo-tablet">
              <ul class="opcoes">
                  <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
                  <label for="opcoes-menu"> <li class="opcoes__item">Categorias</li></label>
@@ -60,6 +60,9 @@
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
               <!-- Slides -->
               <div class="swiper-slide"><img src="/images/ApacheKafka.svg" alt="Livro ApacheKafta"></div>
               <div class="swiper-slide"><img src="/images/Liderança.svg" alt="Livro Liderança"></div>
@@ -69,9 +72,6 @@
               <div class="swiper-slide"><img src="/images/UX.svg" alt="Livro UX"></div>
             </div>
           
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
           
         <div class="card">
             <div class="card__descricao">
@@ -99,6 +99,9 @@
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
               <!-- Slides -->
               <div class="swiper-slide"><img src="/images/Angular11.svg" alt="Livro ApacheKafta"></div>
               <div class="swiper-slide"><img src="/images/Portugol.svg" alt="Livro Liderança"></div>
@@ -108,9 +111,6 @@
               <div class="swiper-slide"><img src="/images/Nodejs.svg" alt="Livro UX"></div>
             </div>
           
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
 
         <div class="card">
             <div class="card__descricao">
@@ -147,8 +147,10 @@
     </section>
 
     <section class="newsletter">
-        <h2 class="newsletter__titulo">Fique por dentro das novidades!</h2>
-        <p class="newsletter__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="newsletter__descricao">
+            <h2 class="newsletter__titulo">Fique por dentro das novidades!</h2>
+            <p class="newsletter__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" class="newsletter__email" placeholder="Cadastre seu e-mail">
     </section>
 
@@ -156,6 +158,33 @@
 
     <footer class="footer">
         <p class="footer__texto">Grupo Alura</p>
+        <ul class="lista-footer">
+            <li class="lista-footer__titulo">Educação</li>
+            <li class="lista-footer__item"><img src="/images/Caelum.svg" alt="Logo Caelum"><a href="#" class="lista__footer-link">Caelum</a></li>
+            <li class="lista-footer__item"><img src="/images/CasaDoCodigo.svg" alt="Logo Casa do Codigo"><a href="#" class="lista__footer-link">Casa do Código</a></li>
+        </ul>
+
+        <ul class="lista-footer">
+            <li class="lista-footer__titulo">Educação Online</li>
+            <li class="lista-footer__item"><img src="/images/Alura.svg" alt="Logo Alura"><a href="#" class="lista__footer-link">Alura</a></li>
+            <li class="lista-footer__item"><img src="/images/AluraEmpresas.svg" alt="Logo Alura Para Empresas"><a href="#" class="lista__footer-link">Alura Para Empresas</a></li>
+            <li class="lista-footer__item"><img src="/images/Alura.svg" alt="Logo Alura"><a href="#" class="lista__footer-link">Alura LATAM</a></li>
+            <li class="lista-footer__item"><img src="/images/AluraStart.svg" alt="Logo Alura Start"><a href="#" class="lista__footer-link">Alura Start</a></li>
+            <li class="lista-footer__item"><img src="/images/MusicDot.svg" alt="Logo MusicDot"><a href="#" class="lista__footer-link">MusicDot</a></li>
+            <li class="lista-footer__item"><img src="/images/AluraLingua.svg" alt="Logo Alura Lingua"><a href="#" class="lista__footer-link">AluraLingua</a></li>
+            <li class="lista-footer__item"><img src="/images/PM3.svg" alt="Logo PM3"><a href="#" class="lista__footer-link">PM3</a></li>
+        </ul>
+
+        <ul class="lista-footer">
+            <li class="lista-footer__titulo">Comunidade</li>
+            <li class="lista-footer__item"><img src="/images/HipsterTech.svg" alt="Logo Hipster Ponto Tech"><a href="#" class="lista__footer-link">Hipster Ponto Tech</a></li>
+            <li class="lista-footer__item"><img src="/images/ScubaDev.svg" alt="Logo Scuba Dev"><a href="#" class="lista__footer-link">Scuba Dev</a></li>
+            <li class="lista-footer__item"><img src="/images/LayersTech.svg" alt="Logo Layers Ponto Tech"><a href="#" class="lista__footer-link">Layers Ponto Tech</a></li>
+            <li class="lista-footer__item"><img src="/images/LikeABoss.svg" alt="Logo Like a Boss"><a href="#" class="lista__footer-link">Like a Boss</a></li>
+            <li class="lista-footer__item"><img src="/images/CarreiraSemFronteira.svg" alt="Logo Carreira sem Fonteira"><a href="#" class="lista__footer-link">Carreira sem Fonteira</a></li>
+            <li class="lista-footer__item"><img src="/images/HipsterJobs.svg" alt="Logo Hipster Ponto Jobs"><a href="#" class="lista__footer-link">Hipster Ponto Jobs</a></li>
+            <li class="lista-footer__item"><img src="/images/GUJ.svg" alt="Logo GUJ"><a href="#" class="lista__footer-link">GUJ</a></li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  

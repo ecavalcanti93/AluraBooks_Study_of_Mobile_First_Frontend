@@ -28,3 +28,17 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1080px){
+    .topicos{
+        padding: 4em 3.5em;
+    }
+    .topicos__titulo{
+        font-size: 24px;
+        margin-bottom: 2em;
+    }
+
+    .topicos__link{
+        font-size: 16px;
+    }
+}
