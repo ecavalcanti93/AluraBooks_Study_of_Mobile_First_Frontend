@@ -78,6 +78,10 @@
     display: none;
 }
 
+.container__texto{
+    display: none;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1080px){
 
     .container1{
@@ -127,4 +131,75 @@
     .opcoes__botao{
         display: none;
     }
+}
+
+@media screen and (min-width: 1024px){
+
+    .container__texto{
+        display: block;
+    }
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .container1{
+        gap: 0.5em;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+        }
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .opcoes{
+        display: flex;
+        align-items: center;
+        padding-top: 1em;
+        margin-right: auto;
+    }
+
+    .opcoes__item{
+        cursor: pointer;
+        padding: 0 1em 0 0;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu{
+     display: block;
+     left: unset;
+     width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+
+       .container__logo-tablet{
+        padding: 0 0.5em 0 0em;
+        display: block;
+    }
+
+    .container__image{
+        display: none;
+    }
+
 } 
