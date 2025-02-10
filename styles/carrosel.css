@@ -99,5 +99,43 @@
         width: 80%;
         margin: 2em auto;
     }
+}
+
+@media only screen and (min-width: 1081px) {
+    .carrosel__container{
+        display: flex;
+        margin: 3em 20vw 3em 20vw;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .swiper-pagination{
+        display: 1em 0;
+    }
+
+    .descricao{
+        margin-right: 2em;
+    }
+
+    .descricao__titulo{
+        font-size: 32px;
+    }
+
+    .descricao__texto{
+        font-size: 16px;
+    }
+
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next{
+    display: block;
+    top: 40%;
+    }
 
 }
